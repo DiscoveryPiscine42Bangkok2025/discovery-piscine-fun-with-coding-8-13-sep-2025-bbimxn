@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu > li {
+    position: relative;
+}
+
+#menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    background: #29baae;
+}
+
+#menu li:hover > a {
+    background: #29baae;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #29baae;
+    list-style: none;
+    min-width: 150px;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu li ul li a:hover {
+    background: #a8d0cd;
+}
