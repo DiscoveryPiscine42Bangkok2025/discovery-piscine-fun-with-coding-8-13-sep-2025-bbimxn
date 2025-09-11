@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.black {
+  background-color: black;
+}
+
+.sec1 {
+  background-image: url("https://lh3.googleusercontent.com/d5c_gHCVykUl3wGcUQ1WTWyAKVhQVOa9JJPptHkQsbD_kqoPRxUGHjMBGowi67ulunDFwWiVNEZlS7gwxVVM=s0");
+}
+
+.sec3 {
+  background-image: url("https://img.online-station.net/_content/2019/0806/141560/gallery/WWU01_500_280.jpg");
+}
+
+h1 {
+  color: white;
+}
