@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #b8e5fa;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#name {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6c93cb;
+    text-shadow: 1.5px 1.5px 0 white, -1.5px 1.5px 0 white, 1.5px -1.5px 0 white, -1.5px -1.5px 0 white;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: right;
+}
+
+#menu > li > a {
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 0 #957b68, -1px 1px 0 #957b68, 1px -1px 0 #957b68, -1px -1px 0 #957b68;
+    background-color: #b8e5fa;
+}
+
+#menu > li > a:hover {
+    background-color: #fad3db;
+    color: #f3848c;
+    text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+}
+
+.section {
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home{
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.bokksu.com/cdn/shop/articles/cr1_1350x.png?v=1721728412");
+}
+
+.aboutme,.experiences,.contact{
+    font-size: 15px;
+    font-family: cursive;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.aboutme{
+    background-color: white;
+}
+
+.experiences{
+    color : white;
+    background-color: #aedde7;
+}
+
+.contact{
+    background-color: #6c93cb;
+}
