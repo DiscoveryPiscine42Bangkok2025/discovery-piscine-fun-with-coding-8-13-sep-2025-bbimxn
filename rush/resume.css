@@ -68,7 +68,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('pic.jpg');
+    background-image: url('picture/pic.jpg');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
